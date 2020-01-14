@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&display=swap');
+
+/* BODY STYLES */
+
+body {
+    background-color: rgb(248, 248, 248);
+    background: linear-gradient(rgb(248, 248, 248), #dbfbff);
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+html {
+    height: 100%;
+}
+
+/* HEADER STYLES */
+
+.header {
+    margin: 0px auto;
+    text-align: center;
+    background-color: white;
+    padding: 5px 0px 5px;
+    border: 2px solid #424242;
+    border-radius: 10px;
+    width: 50%;
+}
+h1 {
+    color: #424242;
+    font-size: 40px;
+}
+
+/* CALCULATOR CONTAINER */
+
+#calculator {
+    width: 30%;
+    height:auto;
+    margin: 10px auto;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: 2px solid #424242;
+    background-color: white;
+    padding-top: 30px;
+    
+    text-align: right;
+}
+
+/* DISPLAY CLEAR AND DELETE */
+
+#display {
+    height: 45px;
+    margin: 0px auto;
+    border: 1px solid #424242;
+    text-align: right;
+    margin: 0px 8px;
+    float: none;
+    border-radius: 10px;
+    font-size: 30px;
+    overflow: scroll;
+}
+.clear, .delete {
+    height: 30px;
+    border-radius: 0px;
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    border-radius: 38px;
+    margin-top: 20px;
+    margin-right: 16px;
+}
+#clearDelete {
+    width: 100%;
+}
+
+/* NUMBER ROWS */
+
+button {
+    margin: 10px 23px;
+    border-radius: 38px;
+    width: 55px;
+    height: 45px;
+    border: 1px solid #424242; 
+    transition: all .1s;
+}
+button:hover {
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+}
+button:focus {
+    outline: 0;
+}
+.operator {
+    background-color: rgb(255, 216, 143);
+}
+.operator:hover {
+    background-color: rgb(255, 195, 83);
+}
+#equal {
+    background-color: rgb(214, 255, 253);
+}

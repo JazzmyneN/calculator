@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator</title>
+    <link href="calcStyles.css" rel="stylesheet" />
+    <script src = "calc.js" defer></script>
+</head>
+
+<body>
+    <!--Header-->
+    <div class="header">
+        <h1>Javascript Calculator</h1>
+    </div>
+
+    <!--Calculator-->
+    <div class="container" id="calculator">
+        <!--Calc Output Display-->
+        <div class="row">
+            <div class="col" id="display">
+
+            </div>
+        </div>
+
+        <!--First Row Buttons, CLR DEL-->
+        <div class="row">
+            <div>
+                <button class="clear" onclick = "">√</button>
+                <button class="clear" onclick = "">x<sup>2</sup></button>
+                <button class="clear" onclick = "findInverse()">x<sup>-1</sup></button>
+            </div>
+            <div  class="col" id='clearDelete'>
+                <button class="clear" onclick = "clearEntry()">CE</button>
+                <button class="clear" onclick = "clearButton()">CLR</button>
+                <button class="delete" onclick = "backspace()">DEL</button>
+            </div>
+        </div>
+    
+        <!--Row Buttons-->
+        <div class = "row">
+            <div class = "col">
+                <button class = "num-button" onclick = "setValue(7)">7</button>
+                <button class = "num-button" onclick = "setValue(8)">8</button>
+                <button class = "num-button" onclick = "setValue(9)">9</button>
+                <button class = "operator" onclick = "setOperator(4)" >/</button>
+            </div>
+
+            <div class = "col">
+                <button class = "num-button" onclick = "setValue(4)">4</button>
+                <button class = "num-button" onclick = "setValue(5)">5</button>
+                <button class = "num-button" onclick = "setValue(6)">6</button>
+                <button class = "operator" onclick = "setOperator(3)">x</button>
+            </div>
+            <div class = "col">
+                <button class = "num-button" onclick = "setValue(1)">1</button>
+                <button class = "num-button" onclick = "setValue(2)">2</button>
+                <button class = "num-button" onclick = "setValue(3)">3</button>
+                <button class = "operator" onclick = "setOperator(2)">-</button>
+            </div>
+            <div class = "col">
+                <button class = "num-button" onclick = "setValue(0)">0</button>
+                <button class = "operator" onclick = "setDecimal()">.</button>
+                <button class = "operator" id = "equal" onclick = "equalClick()">=</button>
+                <button class = "operator" onclick = "setOperator(1)">+</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
