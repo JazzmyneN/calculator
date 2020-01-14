@@ -46,7 +46,6 @@ function clearEntry() {
           num1 = "";
           display.innerHTML = num1;  
         }
-        
     }
     if (flag === true) {
         num2 = "";

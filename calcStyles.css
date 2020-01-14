@@ -7,6 +7,9 @@ body {
     background: linear-gradient(rgb(248, 248, 248), #dbfbff);
     font-size: 22px;
     font-family: 'Source Sans Pro', sans-serif;
+    background:url(
+    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAQklEQVQoU2NkIAIwElJz5syZ/3gVgRSYmJgwEjQJZBNWRVxcXP+/ffsGl8NQhK4Ap0nonoGbBHMkNt+CFeFTAJIHAPliF21OjRbtAAAAAElFTkSuQmCC
+   ) repeat;
     
 }
 html {
