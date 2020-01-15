@@ -7,9 +7,10 @@ body {
     background: linear-gradient(rgb(248, 248, 248), #dbfbff);
     font-size: 22px;
     font-family: 'Source Sans Pro', sans-serif;
-    background:url(
-    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAQklEQVQoU2NkIAIwElJz5syZ/3gVgRSYmJgwEjQJZBNWRVxcXP+/ffsGl8NQhK4Ap0nonoGbBHMkNt+CFeFTAJIHAPliF21OjRbtAAAAAElFTkSuQmCC
-   ) repeat;
+     background:url(
+    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHUlEQVQYV2NkwAIY8Qr6+/v/37hxI1gRfpXIxgAAy1QEBizn7y0AAAAASUVORK5CYII=
+   ) repeat; 
+
     
 }
 html {
@@ -25,7 +26,7 @@ html {
     padding: 5px 0px 5px;
     border: 2px solid #424242;
     border-radius: 10px;
-    width: 50%;
+    width: 35%;
 }
 h1 {
     color: #424242;
@@ -91,11 +92,14 @@ button:focus {
     outline: 0;
 }
 .operator {
-    background-color: rgb(255, 216, 143);
+     background-color: rgb(255, 216, 143); 
+   
 }
 .operator:hover {
     background-color: rgb(255, 195, 83);
+
 }
 #equal {
-    background-color: rgb(214, 255, 253);
+    background-color: rgb(214, 255, 253); 
+
 }
